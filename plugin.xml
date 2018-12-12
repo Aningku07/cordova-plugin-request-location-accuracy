@@ -29,7 +29,8 @@
 
         <source-file src="src/android/RequestLocationAccuracy.java" target-dir="src/cordova/plugin" />
 
-        <framework src="com.google.android.gms:play-services-location:11.6.2" />
+         <preference name="PLAY_SERVICES_VERSION" default="+"/>
+        <framework src="com.google.android.gms:play-services-location:$PLAY_SERVICES_VERSION" />
     </platform>
 
     <platform name="ios">
